@@ -1,10 +1,15 @@
 {
   "name": "filesize-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a tiny module to that returns the size of your files",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm run git:add && npm run git:message && npm run git:push && npm run npm:publish",
+    "git:add": "git add .",
+    "git:message": "git commit -m 'update filesize-cli' ",
+    "git:push": "git push origin master",
+    "npm:publish": "npm publish"
   },
   "repository": {
     "type": "git",
@@ -25,5 +30,8 @@
   "devDependencies": {
     "cli-color": "^1.0.0",
     "recursive-readdir": "^1.2.1"
+  },
+  "bin": {
+    "filesize-cli": "index.js"
   }
 }

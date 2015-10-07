@@ -24,3 +24,5 @@ filesize-cli src/
 // setup.js: 389 kb
 // finalBuild.js: 3892 kb
 ```
+
+![](https://s3.amazonaws.com/f.cl.ly/items/0d3a0J153f260F3u2B3m/Screen%20Recording%202015-10-07%20at%2003.57%20PM.gif)
