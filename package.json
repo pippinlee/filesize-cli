@@ -1,0 +1,29 @@
+{
+  "name": "filesize-cli",
+  "version": "0.0.1",
+  "description": "a tiny module to that returns the size of your files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pippinlee/filesize-cli.git"
+  },
+  "keywords": [
+    "filesize",
+    "cli",
+    "fs",
+    "stats"
+  ],
+  "author": "@pippinlee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pippinlee/filesize-cli/issues"
+  },
+  "homepage": "https://github.com/pippinlee/filesize-cli#readme",
+  "devDependencies": {
+    "cli-color": "^1.0.0",
+    "recursive-readdir": "^1.2.1"
+  }
+}
